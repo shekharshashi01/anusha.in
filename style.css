@@ -1,0 +1,86 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.first-image{
+    background-image: url(shahsi8@.jpg);
+    height: 400px;
+    /* opacity: 0.8; */
+
+}
+.second-image{
+
+    background-image: url(shahsi9@.jpg) ;
+    height: 400px;
+}
+.third-image{
+           background-image: url(shashi3@.jpg);
+           height: 400px;
+}
+.fourth-image{
+           background-image: url(shashi\ @.jpg);
+           height: 400px;
+           /* opacity: 0.8; */
+}
+.first-image,.second-image,.third-image,.fourth-image{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section{
+    text-align: center;
+    padding: 3rem 5rem;
+}
+.section-light{
+    background-color: #e32188;
+    color: #080808;
+}
+.section-dark{
+    background-color: #d95aa9;
+    color: #ddd;
+}
+.image{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+    position: relative;
+} 
+ .image div{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+ }
+ 
+ .first-image span{
+    padding: 20px;
+    color:white;
+    background-color: #bed98d;;
+ }
+ .second-image span{
+    padding: 20px;
+    color:white;
+    background-color:#bed98d;;
+ }
+ .third-image span{
+    padding: 20px;
+    color:white;
+    background-color: #bed98d;
+ }
+ .fourth-image span{
+    padding: 20px;
+    color:white;
+    background-color: #bed98d;;
+ }
